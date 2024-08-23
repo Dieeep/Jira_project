@@ -1,16 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ToDoApp.Api\ToDoApp.Api.csproj" />
     <ProjectReference Include="..\ToDoApp.Data\ToDoApp.Data.csproj" />
-    <ProjectReference Include="..\ToDoApp.Services\ToDoApp.Services.csproj" />
   </ItemGroup>
 
 </Project>

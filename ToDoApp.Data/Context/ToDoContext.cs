@@ -16,6 +16,10 @@ namespace ToDoApp.Data.Context
         public DbSet<Models.TaskItem> Tasks { get; set; }
         public DbSet<User> Users { get; set; }
 
+        public ToDoContext(DbContextOptions<ToDoContext> options) : base(options)
+        {
+            
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
 
